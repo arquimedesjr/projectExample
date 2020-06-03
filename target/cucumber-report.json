@@ -1,0 +1,173 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-03T18:15:40.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1307100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Config.before(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validar data de nascimento \u0027Joe Russo\u0027",
+        "description": "",
+        "id": "validar-data-nascimento--joe-russo-;validar-data-de-nascimento--joe-russo-",
+        "after": [
+          {
+            "result": {
+              "duration": 104400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Config.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 11418851500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que navego na url do google",
+            "match": {
+              "location": "StepCenario.que_navego_na_url_do_google()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 4087448800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Config.AfterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 294004800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "insiro no campo de perquisa \u0027Joe Russo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Joe Russo\u0027",
+                  "offset": 28
+                }
+              ],
+              "location": "StepCenario.insiro_no_campo_de_perquisa(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 616070700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Config.AfterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1423059500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico no botao \u0027Pesquisa Google\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Pesquisa Google\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "StepCenario.clico_no_botao(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 579392700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Config.AfterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 92700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "capturo a data de nascimento do diretor \u0027Joe Russo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Joe Russo\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "StepCenario.capturo_a_data_de_nascimento_do_diretor(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 377817700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Config.AfterStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Buscar"
+          },
+          {
+            "name": "@Buscar"
+          }
+        ]
+      }
+    ],
+    "name": "Validar Data nascimento \u0027Joe Russo\u0027",
+    "description": "",
+    "id": "validar-data-nascimento--joe-russo-",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/Tests/cenario3/[CT1]-validar_data_nascimento_joe_russo.feature",
+    "tags": [
+      {
+        "name": "@Buscar",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
